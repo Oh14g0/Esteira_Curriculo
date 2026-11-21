@@ -1,0 +1,57 @@
+
+# ==============================
+# PYTHON
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# ==============================
+# REACT / NODE
+# ==============================
+
+node_modules/
+dist/
+build/
+.next/
+.vite/
+
+# Logs do Node
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# VISUAL STUDIO CODE
+# ==============================
+
+.vscode/
+*.code-workspace
+
+# ==============================
+# SISTEMA OPERACIONAL
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
